@@ -1,0 +1,118 @@
+{
+  "app": {
+    "title": "Gujarat Student Saathi",
+    "subtitle": "Gujarat na First-Year Students Mate All-in-One Guide",
+    "tagline": "From Admission to Hostel — Complete trusted guide for first-year college students in Gujarat"
+  },
+  "nav": {
+    "home": "Home",
+    "colleges": "Colleges",
+    "courses": "Courses",
+    "admission": "Admission Guide",
+    "documents": "Documents",
+    "hostels": "Find Hostel",
+    "scholarships": "Scholarships",
+    "studyHub": "Study Hub",
+    "askSenior": "Ask Senior",
+    "faq": "FAQ",
+    "notices": "Notices",
+    "dashboard": "Dashboard",
+    "admin": "Admin Panel",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "saved": "Saved Items"
+  },
+  "hero": {
+    "heading": "Starting College in Gujarat?",
+    "headingSub": "Everything You Need in One Place.",
+    "subheading": "From admission to hostel — a complete guide for students across Gujarat.",
+    "btnFindCollege": "🔎 Find Your College",
+    "btnFindHostel": "🏠 Find Hostel",
+    "btnExploreCourses": "📚 Explore Courses",
+    "btnAdmissionGuide": "📝 Admission Guide",
+    "btnFirstYear": "I'm a First-Year Student"
+  },
+  "onboarding": {
+    "title": "Help Me Get Started",
+    "subtitle": "Answer 6 quick questions to generate your personalized Gujarat First-Year Checklist",
+    "district": "Which district/city?",
+    "course": "Which course/stream?",
+    "collegeType": "Government / Grant-in-aid / Private?",
+    "gender": "Boys or Girls?",
+    "hostelNeeded": "Is Hostel / PG required?",
+    "budget": "Hostel Budget Range?",
+    "btnGenerate": "Generate My First-Year Checklist ✨",
+    "yourChecklist": "Your First-Year Checklist",
+    "progress": "Overall Progress",
+    "completed": "Completed",
+    "pending": "Pending"
+  },
+  "verification": {
+    "source": "Source",
+    "officialWebsite": "Official Website",
+    "reportError": "Report Wrong Information"
+  },
+  "hostels": {
+    "title": "🏠 Find Your Hostel & PG",
+    "subtitle": "Government, University, Trust & Private Hostels across Gujarat",
+    "filterCity": "Select City",
+    "filterType": "Hostel Type",
+    "filterGender": "Gender",
+    "packingListTitle": "What Should I Take to Hostel?",
+    "packingListSubtitle": "Interactive packing checklist for college hostel joining",
+    "feeUnverified": "Fee information not available"
+  },
+  "colleges": {
+    "title": "🎓 Discover Gujarat Colleges & Universities",
+    "subtitle": "Search government, grant-in-aid, and private institutions across Gujarat",
+    "filterDistrict": "District",
+    "filterUniversity": "University",
+    "filterType": "College Type",
+    "viewDetails": "View Details",
+    "viewMap": "View on Map",
+    "save": "Bookmark"
+  },
+  "scholarships": {
+    "title": "🎓 Scholarships & Govt Schemes",
+    "subtitle": "MYSY, Digital Gujarat Post-Matric, CMSS, Kanya Kelavani and state welfare schemes",
+    "eligibility": "Eligibility",
+    "benefits": "Financial Benefits",
+    "deadline": "Application Deadline",
+    "officialLink": "Official Application Portal"
+  },
+  "studyHub": {
+    "title": "📚 First-Year Study Hub",
+    "subtitle": "Legal curated subject notes, syllabus, roadmaps & open learning resources"
+  },
+  "askSenior": {
+    "title": "Ask a Senior 👨‍🎓",
+    "subtitle": "Get direct guidance from verified senior college students in Gujarat",
+    "askQuestion": "Ask a Question",
+    "verifiedSeniorBadge": "✓ Verified Senior"
+  },
+  "ai": {
+    "title": "Ask Gujarat Student Saathi 🤖",
+    "placeholder": "Ask anything in English, Gujarati, or Hindi...",
+    "disclaimer": "Answers are generated strictly from verified database records. Always re-check official sources for final confirmation."
+  },
+  "admin": {
+    "title": "Admin Control Suite",
+    "metrics": "Data Quality Dashboard",
+    "verifyTool": "Data Verification Center",
+    "importCsv": "Import CSV Records",
+    "aiExtract": "AI Data Extractor",
+    "reportsInbox": "User Error Reports",
+    "translationMgmt": "Translation Management"
+  },
+  "common": {
+    "loading": "Loading data...",
+    "noData": "No records found for your selected filters.",
+    "retry": "Retry",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "all": "All",
+    "search": "Search..."
+  }
+}
