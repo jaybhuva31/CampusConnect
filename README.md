@@ -58,3 +58,34 @@ The home page provides a simple overview of the platform and gives students quic
 The homepage is designed to help students quickly find what they need without navigating through complicated menus.
 
 ---
+# 🏫 2. College Finder
+
+Students can search and explore colleges available across Gujarat.
+
+### College Search
+
+Students can search colleges using:
+
+- College name
+- City
+- District
+- College type
+- Category
+- Course/program related information
+
+### Supported Major Cities
+
+CampusConnect currently gives special focus to:
+
+- Ahmedabad
+- Surat
+- Rajkot
+- Vadodara
+
+For the project, city and district are normalized together for these major locations.
+
+For example:
+
+Ahmedabad City + Ahmedabad District
+                ↓
+             Ahmedabad
