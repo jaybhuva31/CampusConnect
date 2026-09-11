@@ -141,16 +141,6 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-## 🔐 Environment Variables
-
-Create a `.env` file:
-
-```env
-DEBUG=True
-SECRET_KEY=your_secret_key
-DATABASE_URL=your_database_url
-GOOGLE_MAPS_API_KEY=your_google_maps_api_key
-```
 
 Never commit API keys, passwords, or the real `.env` file to GitHub.
 
