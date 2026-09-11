@@ -36,3 +36,25 @@ The goal is to make the college discovery and admission journey:
 **Simple → Organized → Reliable → Student-Friendly**
 
 ---
+## 🏠 1. Home Page
+
+The home page provides a simple overview of the platform and gives students quick access to the most important features.
+
+### Includes
+
+- College Finder
+- Course Finder
+- Admission Guide
+- Document Checklist
+- Hostel & PG Finder
+- Scholarships
+- Government Schemes
+- Study Hub
+- Ask a Senior
+- Campus Guide
+- Transport
+- Notices & Deadlines
+
+The homepage is designed to help students quickly find what they need without navigating through complicated menus.
+
+---
