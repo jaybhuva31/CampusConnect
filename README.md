@@ -1,91 +1,170 @@
+````markdown
 # 🎓 CampusConnect
 
 > **Connect with your campus. Discover your opportunities.**
 
-CampusConnect is an all-in-one student platform designed to help students discover colleges, courses, admission information, documents, scholarships, hostels/PGs, campus resources, transport information, study resources, and other important student services in Gujarat.
+CampusConnect is an all-in-one student platform for Gujarat that helps students discover colleges, courses, admissions, documents, scholarships, hostels/PGs, campus information, transport, study resources, notices, and senior guidance.
 
-The platform is especially focused on helping students who are starting their college journey and need reliable, organized, and easy-to-understand information in one place.
+## 🚀 Features
 
----
-## 📌 Project Overview
+- 🏫 College Finder
+- 📚 Course Finder
+- 📝 Admission Guide
+- 📄 Document Checklist
+- 🏠 Hostel & PG Finder
+- 📍 Smart Nearby Hostel Recommendations
+- 🗺️ Google Maps Road Distance
+- 🎓 Scholarships
+- 🏛️ Government Schemes
+- 🧭 Campus Guide
+- 🚌 Transport Information
+- 📖 Study Hub
+- 👨‍🎓 Ask a Senior
+- ❓ FAQ
+- 🔔 Notices & Deadlines
+- 👤 Student Dashboard
+- 🛠️ Admin Panel
+- 🚨 Report Incorrect Information
+- 🌍 English, ગુજરાતી & हिंदी
+- 🌙 Light & Dark Mode
+- 📱 Fully Responsive Design
 
-Choosing a college and starting university life can be confusing.
+## 🗺️ Smart Hostel Distance
 
-Students often need to search across multiple websites and sources for:
+When a student selects a college, nearby hostels and PGs are recommended automatically.
 
-- Colleges
-- Courses
-- Admission procedures
-- Required documents
-- Fees
-- Scholarships
-- Government schemes
-- Hostels
-- PGs
-- Transportation
-- Campus information
-- Important contacts
-- Notices and deadlines
-- Study resources
-- Senior guidance
+Distances are based on **road routes using Google Maps Platform**, not simple straight-line distance.
 
-CampusConnect brings these requirements together into a single student-friendly platform.
+The system avoids fake fallback values such as `0 km` or `0.01 km`.
 
-The goal is to make the college discovery and admission journey:
+If a route cannot be calculated, it displays:
 
-**Simple → Organized → Reliable → Student-Friendly**
+```text
+Distance unavailable
+````
 
----
-## 🏠 1. Home Page
+## 🏙️ Gujarat Coverage
 
-The home page provides a simple overview of the platform and gives students quick access to the most important features.
+CampusConnect is designed for Gujarat-wide coverage, with initial focus on:
 
-### Includes
+* Ahmedabad
+* Surat
+* Rajkot
+* Vadodara
 
-- College Finder
-- Course Finder
-- Admission Guide
-- Document Checklist
-- Hostel & PG Finder
-- Scholarships
-- Government Schemes
-- Study Hub
-- Ask a Senior
-- Campus Guide
-- Transport
-- Notices & Deadlines
+For these locations, city and district are normalized together for simpler filtering.
 
-The homepage is designed to help students quickly find what they need without navigating through complicated menus.
+## 📊 Data Quality
 
----
-# 🏫 2. College Finder
+CampusConnect prioritizes reliable and maintainable data.
 
-Students can search and explore colleges available across Gujarat.
+* No fake college or hostel records
+* No fabricated phone numbers or websites
+* Official sources preferred
+* Source URLs maintained
+* Duplicate records should be detected
+* Invalid locations should be detected
+* Incorrect information can be reported
+* Admins can directly update incorrect records
 
-### College Search
+## 📍 College Data Format
 
-Students can search colleges using:
+College CSV data follows this exact structure:
 
-- College name
-- City
-- District
-- College type
-- Category
-- Course/program related information
+```csv
+name,city,district,type,category,address,phone,website,source_url,source_name
+```
 
-### Supported Major Cities
+Unknown information should remain blank rather than being guessed.
 
-CampusConnect currently gives special focus to:
+## 🚫 Intentional Exclusions
 
-- Ahmedabad
-- Surat
-- Rajkot
-- Vadodara
+* College seat counts are not stored because intake changes frequently.
+* Separate Compare functionality has been removed.
+* A visible "Verified" badge is not shown in the student-facing UI.
 
-For the project, city and district are normalized together for these major locations.
+## 🌐 Languages
 
-For example:
+* English — Default
+* ગુજરાતી
+* हिंदी
 
-Ahmedabad City + Ahmedabad District
-                ↓
-             Ahmedabad
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React
+* JavaScript / JSX
+* HTML
+* CSS
+
+### Backend
+
+* Python
+* Django
+* REST APIs
+
+### Database
+
+* Relational Database
+
+### Maps
+
+* Google Maps Platform
+* Routes API
+* Route Matrix
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+
+## ⚙️ Installation
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd backend
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+## 🔐 Environment Variables
+
+Create a `.env` file:
+
+```env
+DEBUG=True
+SECRET_KEY=your_secret_key
+DATABASE_URL=your_database_url
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+```
+
+Never commit API keys, passwords, or the real `.env` file to GitHub.
+
+## 🧑‍💻 Author
+
+**Jay Bhuva**
+
+Computer Engineering Student
+
+## ⭐ Vision
+
+CampusConnect aims to become a complete student companion for Gujarat — from finding the right college and course to managing admission, scholarships, accommodation, campus life, and opportunities.
+
+> **Connect with your campus. Discover your opportunities.**
+
+```
+```
